@@ -1,0 +1,102 @@
+* Acteurs.
+
+1. A l'école :
+- Responsable des stages (RDS),
+- Direction de l'école (DE),
+- Chef du département de la spécialité (CD),
+- Reponsable de la scolarité (RS),
+- Comission de stage (CS),
+- Anciens membres de la comission de stage (AM),
+- Enseignants de l'école (ENS),
+- Elèves (ELV).
+  
+2. En entreprise :
+- Stagiaires (ST),
+- Tuteur pédagogique (TP) (est en fait un ENS de l'année en cours),
+- Encadrant en entreprise (EE),
+- Signataire de la convention dans l'entreprise (SCE).
+ 
+* A. Organisation des campagnes de stages.
+
+Responsable de cette organisation => RDS.
+Préparation des stages chaque année à travers les étapes suivantes.
+
+** Ouverture de la compagne de stage pour l'année scolaire en cours.
+
+- Dépend de l'année scolaire et de la formation.
+
+1. Le RDS décide d'ouvrire la capagne. Notifications aux ELV, à la DE, au CD,
+au RS.
+
+** Constition de la commission de stages.
+
+- Peut se faire avant l'ouverture de la campagne de stages.
+- Le RDS fait nécéssairement partie de la CS. Il peut être le seul membre.
+- Droit de rétractation pour les AM.
+
+1. Le RDS demande aux membres de la CS de l'année précédente s'ils acceptent
+de poursuivre leur rôle.
+2. Si pas assez de réponses favorable, alors le RDS sollicite les autres ENS.
+3. Sélection des membres de la CS : le RDS informe les ENS non retenus.
+4. Cloture de la constition, notifications de la cloture à l'ensemble les ENS
+sollicité. Notification de la liste de la CS choisi au CD et au RS.
+
+** Fixation de la limite d'encadrement des stagiaires par tuteur pédagogique.
+
+- Peut se faire avant l'ouverture de la campagne de stages.
+- Tout les ST doivent avoir un TP et un EE.
+- Par défaut, chaque élève à le RDS comme TP.
+
+1. Le RDS fixe le nombre maximum de stagiaires que tout ENS/TP peut encadrer.
+Notifications au CD, au RS et à la DE.
+2. Au besoin, le RDS peut redéfinir ce nombre. Notifications au CD, au RS et
+à la DE.
+
+** Activation de la procédure d'affectation du tuteur pédagogique à un stagiaire.
+
+- Doit se faire après l'approbation d'une convention de stage par toutes les
+  parties prenantes (vu en TDs).
+- Le RDS à la même limite d'élève à encadrer que les autres ENS.
+
+1. Convention de stage => invitation des ENS de l'année en cours à encadrer
+un ou plusieurs ST.
+2. Les ENS ont accès à la liste des élèves, et peuvent se déclarer TP dans la
+limite du nombre fixé par le RDS. Quand un ENS se déclare TP : notification à
+l'ELV, son EE, le RDS et le RS.
+3. Après un délai fixé par le RDS, il clôture l'affectation des TP aux
+stagiaire. Notifications aux ENS, le CD et le RS. Le RDS est de facto
+confirmé comme TP des stagiaires dont les conventions sont encore en attente
+d'un TP. Notifications au ST et son EE.
+
+* B. Exécution du stage.
+
+- Période où l'élève effectue son stage en entreprise.
+
+1. L'EE du ST qui vient d'arriver en informe l'école par l'intérmédiaire du
+TP : l'EE fait un procès-verbal d'intégration (PVI) comprenant la date effective
+d'intégration. On attends un accusé de réception (AR) de la part du TP.
+2. Le TP peut rappeler à l'EE de produire son PVI.
+3. Après quelques jours, le ST doit établir un "rapport d'installation"
+(condition de travail, logistique mis à ça disposition, modification par
+raccusé de réceptionapport au sujet initial). Le ST attends un AR de la part du TP.
+4. Sauf cas exceptionnels approuvés par le RDS, le TP doit effectué au moins
+une visite dans l'entreprise du ST. A l'issue de chaque visite, il doit
+fournir un "compte rendu de visite" (avec la date, les personnes rencontrées
+et ses commentaires).
+5. A la moitié du stage, le ST doit produire un rapport de mi stage pour son
+TP. Notification à son EE et à ton TP. Le ST attends un AR de la part de son
+TP.
+6. A la fin du stage, le ST doit produire un rapport de fin de stage pour son
+TP. Notification à son TP. Le ST attends un AR de la part de son TP.
+7. Le TP peut relancer le ST pour la remise des rapports. Notification au ST
+et à son EE.
+
+Procédure d'interruption du stage :
+1. C'est le TP qui peux envisager d'interrompre le stage avec une appréciation sur la
+situation de l'EE ou du ST.
+2. S'il décide d'interrompre, le TP envoie une demande d'interruption au
+RDS (avec le motif). Notification au ST et au EE.
+3. Le RDS emet sa décision. Notification au TP, au ST et à son EE. Si le RDS
+à décidé que le stage devait être interrompu, alors notifications à la DE.
+4. La DE emet la décision finale : soit le stage se poursuit, soit on
+interrompt et on informe le ST, son EE, le SCE, le TP, et le RDS.
