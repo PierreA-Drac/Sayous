@@ -1,0 +1,138 @@
+% Class and style of the document.
+\documentclass[12pt]{article}
+
+% Package and configuration.
+
+% Language and encoding packages.
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Mathematics package.
+\usepackage{amsmath}
+\usepackage{amstext}
+
+% Figures package.
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+% Charts package.
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\usepgfplotslibrary{units}
+
+% Symbols and numbers.
+\usepackage{siunitx}
+\usepackage{numprint}
+
+% Formatter package.
+%% Page break between section.
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+%% Use clickable URLs.
+\usepackage{url}
+
+% Hypertext links.
+\usepackage[hidelinks]{hyperref}
+
+% Footer.
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+% Clear headers and footers.
+\fancyhead{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+% Define footers.
+\fancyfoot[RE,LO]{Pierre AYOUB, Océane FLAMANT, Dorsaf FRIGUI}
+\fancyfoot[RE,CO]{}
+\fancyfoot[RE,RO]{\text{\thepage} sur \pageref{LastPage}}
+
+% Paragraph.
+\setlength{\parskip}{1ex}
+
+% Quote.
+\usepackage[style=french,french=guillemets]{csquotes}
+
+\begin{document}
+
+\title{Gestion des stages dans une école d'ingénieurs}
+\author{Pierre AYOUB -- Océane FLAMANT -- Dorsaf FRIGUI}
+
+\maketitle
+
+\begin{figure}[b]
+    \centering
+    \includegraphics[scale=0.3]{pictures/isty.jpg}
+\end{figure}
+
+\tableofcontents
+
+\section{Introduction}
+
+Ce projet avait pour objectif la modélisation du processus de gestion des stages
+d'une école d'ingénieur en appliquant la méthode CLHYPS. Cette dernière, dont
+l'acronyme est inconnu de ses utilisateurs, est un cadre méthodologique alliant
+modèle objet et approche systémique en proposant des méthodes et des algorithmes
+permettant de modéliser un système.
+
+La modélisation de ce système s'est déroulée en plusieurs étapes :
+\begin{itemize}
+        \item Analyse conceptuelle : cette première étape consiste en un
+            dialogue avec le client qui nous expose ses différents besoins. De
+            cette description du système, il nous incombe de définir les points
+            pertinents à traiter, ainsi que les besoins sensibles et les axes de
+            travail.
+        \item Analyse des exigences fonctionnelles : c'est durant cette deuxième
+            étape que le travail formel commence. En partant de notre
+            analyse et compréhension des besoins du client grâce à notre étape
+            précédente, nous pouvons maintenant dresser un tableau d'exigences
+            représentant notre système.
+        \item Modèle objet : depuis notre tableau des exigences fonctionnelles,
+            nous allons maintenant pouvoir en \enquote{dériver} une
+            représentation du système selon le modèle objet. Cette
+            représentation nous permet de voir les différentes classes de
+            notre système, ainsi que les informations qu'elles portent.
+        \item Modèle d'activité : encore depuis notre tableau des exigences
+            fonctionnelles, nous allons pouvoir \enquote{dériver} une
+            représentation d'activité du système. Ce modèle nous permet de
+            justifier les flux qui régissent la vie de ce dernier, en mettant en
+            évidence les différentes interactions entre les agents du contexte.
+\end{itemize}
+
+\section{Modèles}
+
+Pour des soucis de mise en page, nous utiliserons des abréviations pour désigner
+les différents rôles des agents dans nos modèles. En voici la liste :
+\begin{enumerate}
+    \item À l'école :
+        \begin{description}
+            \item[RDS] {Responsable des stages}
+            \item[DE]  {Direction de l'école}
+            \item[CD]  {Chef du département de la spécialité}
+            \item[RS]  {Reponsable de la scolarité}
+            \item[CS]  {Comission de stage}
+            \item[AM]  {Anciens membres de la comission de stage}
+            \item[ENS] {Enseignants de l'école}
+            \item[ELV] {Élèves}
+        \end{description}
+    \item En entreprise :
+        \begin{description}
+            \item[ST]  {Stagiaires}
+            \item[TP]  {Tuteur pédagogique (est en fait un ENS de l'année en cours)}
+            \item[EE]  {Encadrant en entreprise}
+            \item[SCE] {Signataire de la convention dans l'entreprise}
+        \end{description}
+\end{enumerate}
+
+\subsection{Modèle d'exigences fonctionnelles}
+
+\subsection{Modèle objet}
+
+\subsection{Modèle d'activité}
+
+\section{Limites}
+
+\section{Conclusion}
+
+\end{document}
