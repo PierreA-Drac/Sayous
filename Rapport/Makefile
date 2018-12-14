@@ -24,3 +24,6 @@ report: $(REPORT).pdf
 
 clean:
 	rm -f $(REPORT).aux $(REPORT).log $(REPORT).out $(REPORT).toc
+	
+mrproper: clean
+	rm -f $(REPORT).pdf
