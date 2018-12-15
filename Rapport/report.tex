@@ -1,5 +1,5 @@
 % Class and style of the document.
-\documentclass[12pt]{article}
+\documentclass[12pt,a4paper]{article}
 
 % Package and configuration.
 
@@ -7,6 +7,11 @@
 \usepackage[french]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+
+% Table package.
+\usepackage{csvsimple}
+\usepackage{booktabs}
+\usepackage{changepage}
 
 % Mathematics package.
 \usepackage{amsmath}
@@ -26,6 +31,8 @@
 \usepackage{numprint}
 
 % Formatter package.
+\usepackage{pdflscape}
+\usepackage{vmargin}
 %% Page break between section.
 \usepackage{titlesec}
 \newcommand{\sectionbreak}{\clearpage}
@@ -127,9 +134,87 @@ les différents rôles des agents dans nos modèles. En voici la liste :
 
 \subsection{Modèle d'exigences fonctionnelles}
 
-\subsection{Modèle objet}
+Ci-dessous se présente le modèle d'exigences fonctionnelles, séparé en deux
+\enquote{packages}, eux-même séparés en plusieurs tableaux pour des raisons de
+lisibilité. Chaque package correspond à une période de l'année et un cadre
+totalement différent : le premier se passe à l'école, le second se passe en
+entreprise. 
+
+\subsubsection{Package A - Organisation de la campagne de stage}
+
+Le premier package correspond à l'ensemble des sollications permettant
+d'organiser la campagne de stage, que ce soit du côté de l'école, de
+l'entreprise ou bien de l'élève.
+
+Nous noterons que la sollicitation intitulée \enquote{ObtenirConvStage} est une
+\enquote{méta-sollicitation} représentant l'ensemble des procédures et
+sollicitations établies en TP.
+
+\newpage \setpapersize[landscape]{A4}
+\begin{adjustwidth}{-2cm}{-2cm}
+    \begin{tabular}{|l|c|c|p{5cm}|p{9cm}|} \hline
+        \bfseries Sollicitation & \bfseries Commanditaire & \bfseries Bénéficiaire & \bfseries Ressource (classe objet) & \bfseries Finalité
+        \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \hline \sol & \com & \ben & \res & \fin}
+        \\ \hline
+    \end{tabular}
+\end{adjustwidth}
+\newpage \setpapersize{A4}
+
+\newpage \setpapersize[landscape]{A4}
+\begin{adjustwidth}{-2cm}{-2cm}
+    \begin{tabular}{|l|p{3cm}|p{3cm}|p{7cm}|p{7cm}|} \hline
+        \bfseries Sollicitation & \bfseries Destinaires (Primaires / Secondaires) & \bfseries Condition d'émission & \bfseries Condition de recevabilité & \bfseries Type d'effet
+        \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \hline \sol & \des & \condemi & \condrec & \eff}
+        \\ \hline
+    \end{tabular}
+\end{adjustwidth}
+\newpage \setpapersize{A4}
+
+\newpage \setpapersize[landscape]{A4}
+\begin{tabular}{|l|l|c|c|} \hline
+    \bfseries Sollicitation & \bfseries Procédure & \bfseries Point d'entrée & \bfseries Rang
+    \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \hline \sol & \proc & \ptentr & \rang}
+    \\ \hline
+\end{tabular}
+\newpage \setpapersize{A4}
+
+\subsubsection{Package B - Phase d'exécution du stage}
+
+Le deuxième package correspond à l'ensemble des sollicitations se déroulant
+durant la période de stage en entreprise. Tout ceci se passe donc après le
+travail que nous avons effectué en TP.
+
+\newpage \setpapersize[landscape]{A4}
+\begin{adjustwidth}{-2.3cm}{-2.3cm}
+    \begin{tabular}{|p{5.5cm}|c|c|p{6cm}|p{8cm}|} \hline
+        \bfseries Sollicitation & \bfseries Commanditaire & \bfseries Bénéficiaire & \bfseries Ressource (classe objet) & \bfseries Finalité
+        \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \hline \sol & \com & \ben & \res & \fin}
+        \\ \hline
+    \end{tabular}
+\end{adjustwidth}
+\newpage \setpapersize{A4}
+
+\newpage \setpapersize[landscape]{A4}
+\begin{adjustwidth}{-2.5cm}{-2.5cm}
+    \begin{tabular}{|p{5.5cm}|p{3cm}|p{3cm}|p{7cm}|p{7cm}|} \hline
+        \bfseries Sollicitation & \bfseries Destinaires (Primaires / Secondaires) & \bfseries Condition d'émission & \bfseries Condition de recevabilité & \bfseries Type d'effet
+        \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \hline \sol & \des & \condemi & \condrec & \eff}
+        \\ \hline
+    \end{tabular}
+\end{adjustwidth}
+\newpage \setpapersize{A4}
+
+\newpage \setpapersize[landscape]{A4}
+\begin{tabular}{|l|l|c|c|} \hline
+    \bfseries Sollicitation & \bfseries Procédure & \bfseries Point d'entrée & \bfseries Rang
+    \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \hline \sol & \proc & \ptentr & \rang}
+    \\ \hline
+\end{tabular}
+\newpage \setpapersize{A4}
 
 \subsection{Modèle d'activité}
+
+\subsection{Modèle objet}
 
 \section{Limites}
 

@@ -1,0 +1,16 @@
+sol|com|ben|res|fin|des|condemi|condrec|eff|proc|ptentr|rang
+DemandeAM|RDS|CS|Liste des AM du CS de l'an passé|RDS demande aux AM s'ils veulent faire partie de la CS de l'année en cours.|AM||Le CS n'as pas déjà été créé.|Notification (Demande)|Formation de la commission de stage|Oui|N
+AcceptationAM|AM|CS|DemandeAM|AM accepte de faire partit du CS.|RDS||Si on à reçu une demande du RDS.|Notification (Réponse)|/|Non|N+1
+RefusAM|AM|CS|DemandeAM|AM refuse de faire partit du CS.|RDS||Si on à reçu une demande du RDS.|Notification (Réponse)|/|Non|N+1
+DemandeENS|RDS|CS|Réponses positives des AM + Liste des ENS|RS demande aux ENS de rejoindre le CS s'il n'y a pas assez d'AM disponible.|ENS||Si le RS estime qu'il n'y a pas assez de réponses positives de la part des AM.|Notification (Demande)|/|Non|N+2
+AcceptationENS|ENS|CS|DemandeENS|ENS accepte de faire partit du CS.|RDS||Si on à reçu une demande du RDS.|Notification (Réponse)|/|Non|N+3
+RefusENS|ENS|CS|DemandeENS|ENS refuse de faire partit du CS.|RDS||Si on à reçu une demande du RDS.|Notification (Réponse)|/|Non|N+3
+SelectionCS|RDS|CS|Réponses positives des AM + ENS|RDS décide de la composition du CS.|ENS non retenu||Si il y a eu au moins une réponse positive des AM ou ENS.|Notification (Annonce du rejet de la candidature)|/|Non|N+4
+ClotureCS|RDS|CS|SelectionCS|RDS clôture la sélection du CS.|ENS sollicités / CD, RS|VRAI|RDS fait partit de la CS.|Notification (Annonce de l'acceptation de la candidature et de la clôture) / Effet (Liste du CS)|/|Non|N+5
+FixationNombreELVMax|RDS|TP|Nombre d'ELV et nombre d'ENS|RDS fixe le nombre maximum d'élève par TP.|CD, RS, DE|VRAI|Si il n'y a pas déjà eu une fixation du nombre d'ELV maximum par TP.|Effet (Nombre fixé)|Établissement du nombre d'élève par tuteur|Oui|N
+RévisionNombreELVMax|RDS|TP|FixationNombreELVMax|RDS modifie le nombre d'élève maximum par TP.|CD, RS, DE|VRAI|Si il y a déjà eu une fixation du nombre d'ELV maximum par TP.|Effet (Nombre fixé)|/|Non|N+1
+OuvertureCampagne|RDS|ELV|Niveau, formation, année|RDS ouvre la campagne de stage pour que les ELV puissent commencer leur démarche.|ELV / DE, CD, RS|VRAI||Notification / Effet (information de l'ouverture)|Lancement de l'organisation des compagnes de stage|Oui|N
+ObtenirConvStage|ELV|ELV|OuvertureCampagne|ELV obtient une convention de stage signé par toute les parties.|*||Si la campagne de stage est lancée.|*|Obtention d'une convention de stage (TPs)|Oui|N+6
+InvitationENS|RDS|ELV|Liste des ENS et des ELV avec une convention de stage validée|RDS invite ENS à devenir TP d'un ELV dont la convention est validée.|ENS||Si des ELV sont en attente d'un TP.|Notification (Demande)|Finalisation de l'organisation des campagnes de stage|Oui|N+7
+DéclarationTP|ENS|ELV|InvitationENS|ELV déclare devenir TP d'un ELV.|RDS / ELV, EE, RS|VRAI|L'ENS ne doit pas avoir dépassé la limite d'ELV maximum fixé par le RDS.|Notification / Effet (information de la décision)|/|Non|N+8
+ClotureAffectation|RDS|ELV|DéclarationTP|RDS déclare la clôture de l'affectation des TP aux ELV.|ELV, EE / ENS, CD, RS|VRAI||Notification (information du TP choisi) / Effet (fin de l'affectation des TP)|/|Non|N+9

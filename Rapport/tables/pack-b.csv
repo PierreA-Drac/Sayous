@@ -1,0 +1,20 @@
+proc|prentr|rang|sol|com|ben|res|des|condemi|condrec|eff|fin
+Obtention du procès verbal d'intégration|Oui|N|RappelProcesVerbalIntégration|TP|TP|Convention de stage validée|EE||Le procès verbal d'intégration n'as pas déjà été envoyé.|Notification (Demande)|TP rappel a EE qu'il faut envoyer le procès verbal d'intégration.
+/|Non|N|EnvoiProcesVerbalIntégration|EE|TP|Convention de stage validée + Éventuel RappelProcesVerbalIntégration|TP|||Notification (Réponse)|EE envoi le procès verbal d'intégration au TP.
+Obtention du rapport d'installation|Oui|N+1|EnvoieRapportInstallation|ST|TP|Convention de stage validée|TP|||Notification|ST envoi le rapport d'installation au TP.
+Obtention du rapport de mi-stage|Oui|N+2|RappelMiRapport|TP|TP|Convention de stage validée|ST||Le mi-rapport n'as pas déjà été envoyé.|Notification (Demande)|TP rappel au ST d'envoyer le mi-apport.
+/|Non|N+2|EnvoieMiRapport|ST|TP|Convention de stage validée + Éventuel RappelMiRapport|TP|||Notification (Réponse)|ST envoi le mi-apport au TP.
+Obtention du rapport final|Oui|N+4|RappelRapportFinal|TP|TP|Convention de stage validée|ST||Le rapport final n'as pas déjà été envoyé.|Notification (Demande)|TP rappel au ST d'envoyer le rapport de fin.
+/|Non|N+4|EnvoieRapportFinal|ST|TP|Convention de stage validée + Éventuel RappelRapportFinal|TP|||Notification (Réponse)|ST envoi son rapport final au TP.
+Visite de l'entreprise|Oui|N+3|VisiteEntreprise|TP|TP|Convention de stage validée|ST, EE||La prochaine visite n'as pas été annulée.|Notification (Information de la venu)|TP fait sa visite obligatoire au stagiaire.
+/|Non|N+3|CompteRenduVisite|TP|RDS|VisiteEntreprise|RDS|||Notification|TP rédige le compte rendu de la visite.
+Annulation de la visite|Oui|N|DemandeDeNonVisite|TP|TP|Convention de stage validée|DE|||Notification (Demande)|TP demande au DE de ne pas rendre visite au ST.
+/|Non|N+1|AcceptationNonVisite|DE|TP|DemandeDeNonVisite|TP|||Notification (Réponse)|DE accepte la non visite du TP au ST.
+/|Non|N+1|RefusNonVisite|DE|TP|DemandeDeNonVisite|TP|||Notification (Réponse)|DE refuse la non visite du TP au ST.
+Interruption du stage|Oui|N|InformerDemande InterruptionStage|TP|ST|Convention de stage validée|ST, EE|ST ou EE||Effet (instruction de la situation)|TP instruit le ST et le EE de la demande d'interruption du stage.
+/|Non|N+1|DemandeInterruptionTP|TP|ST|InformerDemande InterruptionStage|RDS|||Notification (Demande)|TP demande l'interruption de stage au responsable de stages.
+/|Non|N+2|AcceptationInterruptionTP|RDS|ST|DemandeInterruptionTP|TP|||Notification (Réponse)|RDS accepte la demande d'interruption de stage de la part du TP.
+/|Non|N+2|RefusInterruptionTP|RDS|ST|DemandeInterruptionTP|TP|||Notification (Réponse)|RDS refus la demande d'interruption de stage de la part du TP.
+/|Non|N+3|DemandeInterruptionRDS|RDS|ST|AcceptationInterruptionTP|DE|||Notification (Demande)|RDS demande au directeur l'interruption du stage de ST.
+/|Non|N+4|AcceptationInterruptionDE|DE|ST|DemandeInterruptionRDS|TP, ST, EE / RDS, SCE|VRAI||Notification (Arrête du stage) / Effet (information de la décision)|DE accepte la demande d'interruption du stage de ST par RDS.
+/|Non|N+4|RefusInterruptionDE|DE|ST|DemandeInterruptionRDS|TP, RDS|||Effet (Réponse)|DE refuse la demande d'interruption du stage de ST par RDS.
