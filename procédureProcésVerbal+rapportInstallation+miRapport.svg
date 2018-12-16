@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="47cm" height="39cm" viewBox="215 80 940 775" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="284" y="294" width="256.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="284" y="294" width="256.4" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="412.2" y="313">TP</text>
+    <rect style="fill: #ffffff" x="284" y="322" width="256.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="284" y="322" width="256.4" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="287" y="336">-id_tp</text>
+    <rect style="fill: #ffffff" x="284" y="342" width="256.4" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="284" y="342" width="256.4" height="52"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="287" y="356">+produire_rappel_procés_verbal()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="287" y="372">+produire_rappel_mi_rapport()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="287" y="388">+produire_envoie_mi_rapport()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="836" y="297" width="318" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="836" y="297" width="318" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="995" y="316">ConventionStageValidée</text>
+    <rect style="fill: #ffffff" x="836" y="325" width="318" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="836" y="325" width="318" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="339">-id_conv</text>
+    <rect style="fill: #ffffff" x="836" y="345" width="318" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="836" y="345" width="318" height="84"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="359">+Traiter_rappel_procés_verbal()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="375">+Traiter_envoie_procés_verbal()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="391">+traiter_envoie_rapport_d'installation()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="407">+Traiter_rappel_mi_rapport()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="423">+traiter_envoie_mi_rapport()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="314" y="505" width="248.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="314" y="505" width="248.7" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="438.35" y="524">Rappel_procés_verbal</text>
+    <rect style="fill: #ffffff" x="314" y="533" width="248.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="314" y="533" width="248.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="317" y="547">-date</text>
+    <rect style="fill: #ffffff" x="314" y="553" width="248.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="314" y="553" width="248.7" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="317" y="567">+Rappel_procés_verbal()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="317" y="583">+traiter_envoie_procés_verbal()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="544,333 677,333 677,334 832,334 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="679" y="330.5"></text>
+    <polygon style="fill: #000000" points="681,330.5 681,322.5 689,326.5 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="548" y="330"> B</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="548" y="346">1</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="828" y="331"> R</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="828" y="347">1..*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="606,332 606,459 387.705,459 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="400.353,454 384.353,459 400.353,464 "/>
+  </g>
+  <text style="fill: #0000ff;text-anchor:start;font-size:14.1563;font-family:sanserif;font-style:normal;font-weight:normal" x="215" y="98">
+    <tspan x="215" y="98">Procédure obtention du procès verbal d’intégration+rapport d’installation+rapport mi stage   : </tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="304" y="91">
+    <tspan x="304" y="91"></tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="341" y="92">
+    <tspan x="341" y="92"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="306" y="786" width="256.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="306" y="786" width="256.4" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="434.2" y="805">EE</text>
+    <rect style="fill: #ffffff" x="306" y="814" width="256.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="306" y="814" width="256.4" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="309" y="828">-id_EE</text>
+    <rect style="fill: #ffffff" x="306" y="834" width="256.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="306" y="834" width="256.4" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="309" y="848">+produire_envoie_procés_verbal()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="345" y="625" width="135.45" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="345" y="625" width="135.45" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="412.725" y="644">Procés_verbal</text>
+    <rect style="fill: #ffffff" x="345" y="653" width="135.45" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="345" y="653" width="135.45" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="348" y="667">-Date</text>
+    <rect style="fill: #ffffff" x="345" y="673" width="135.45" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="345" y="673" width="135.45" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="348" y="687">+Procés_Verbal()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="422,694 422,694 422,783 422,783 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="424" y="735.5"></text>
+    <polygon style="fill: #000000" points="426,735.5 426,727.5 434,731.5 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="426" y="706">1..*</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="426" y="763"> C</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="426" y="779">1</text>
+  </g>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="461.002" y="93">
+    <tspan x="461.002" y="93"></tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="220.002" y="82">
+    <tspan x="220.002" y="82"></tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="291.002" y="90">
+    <tspan x="291.002" y="90"></tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="311,537 242,537 242,663 345,663 "/>
+    <polygon style="fill: #000000" points="246,600 246,592 254,596 "/>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="307" y="534"> R</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="307" y="550">0..*</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="341" y="660">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="748,334 748,334 748,437.295 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="743,424.647 748,440.647 753,424.647 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="660.5" y="446.8" width="192.75" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="660.5" y="446.8" width="192.75" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="756.875" y="465.8">Rapport_installation</text>
+    <rect style="fill: #ffffff" x="660.5" y="474.8" width="192.75" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="660.5" y="474.8" width="192.75" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="663.5" y="488.8">-date</text>
+    <rect style="fill: #ffffff" x="660.5" y="494.8" width="192.75" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="660.5" y="494.8" width="192.75" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="663.5" y="508.8">+Rapport_installation()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="647.5" y="597.8" width="271.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="647.5" y="597.8" width="271.8" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="783.4" y="616.8">ST</text>
+    <rect style="fill: #ffffff" x="647.5" y="625.8" width="271.8" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="647.5" y="625.8" width="271.8" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="650.5" y="639.8">-id_ST</text>
+    <rect style="fill: #ffffff" x="647.5" y="645.8" width="271.8" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="647.5" y="645.8" width="271.8" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="650.5" y="659.8">+produire_rapport_d'installation()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="730,519 730,557.896 783.4,557.896 783.4,596.791 "/>
+    <text style="fill: #000000;text-anchor:middle;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="756.7" y="557.896"></text>
+    <polygon style="fill: #000000" points="758.7,557.896 758.7,549.896 766.7,553.896 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="734" y="531">1</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="787.4" y="576.791"> C</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="787.4" y="592.791">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="378,397 378,444 376,444 376,502 "/>
+    <polygon style="fill: #000000" points="379,444 379,436 387,440 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="382" y="409"> C</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="382" y="425">1</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="380" y="498">0..*</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="606" y="184" width="225.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="606" y="184" width="225.6" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="718.8" y="203">Rappel_mi_rapport</text>
+    <rect style="fill: #ffffff" x="606" y="212" width="225.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="606" y="212" width="225.6" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="609" y="226">-date</text>
+    <rect style="fill: #ffffff" x="606" y="232" width="225.6" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="606" y="232" width="225.6" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="609" y="246">+Rappel_mi_rapport()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="609" y="262">+traiter_envoie_mi_rapport()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="683,271 683,299 653,299 653,328.295 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="648,315.647 653,331.647 658,315.647 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="392,290 392,212 602,212 602,212 "/>
+    <polygon style="fill: #000000" points="499,212 499,204 507,208 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="396" y="270"> C</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="396" y="286">1</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="598" y="209">0..*</text>
+  </g>
+  <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:sanserif;font-style:normal;font-weight:normal" x="580" y="93">
+    <tspan x="580" y="93"></tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:sanserif;font-style:normal;font-weight:normal" x="572" y="101">
+    <tspan x="572" y="101"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="921" y="206" width="110.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="921" y="206" width="110.1" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="976.05" y="225">Mi_rapport</text>
+    <rect style="fill: #ffffff" x="921" y="234" width="110.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="921" y="234" width="110.1" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="924" y="248">-date</text>
+    <rect style="fill: #ffffff" x="921" y="254" width="110.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="921" y="254" width="110.1" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="924" y="268">+mi_rapport()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="836,227 877.5,227 877.5,227 919,227 "/>
+    <polygon style="fill: #000000" points="879.5,227 879.5,219 887.5,223 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="224"> R</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="840" y="240">0..*</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="915" y="224">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="339,289 339,147 976,147 976,201 "/>
+    <polygon style="fill: #000000" points="659.5,147 659.5,139 667.5,143 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="343" y="269"> C</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="343" y="285">1..*</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="197">1</text>
+  </g>
+</svg>
