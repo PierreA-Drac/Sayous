@@ -21,6 +21,7 @@
 % Figures package.
 \usepackage{graphicx}
 \usepackage{wrapfig}
+\usepackage{svg}
 
 % Charts package.
 \usepackage{pgfplots}
@@ -72,7 +73,7 @@
 
 \begin{figure}[b]
     \centering
-    \includegraphics[scale=0.3]{pictures/isty.jpg}
+    \includegraphics[scale=0.3]{figures/isty.jpg}
 \end{figure}
 
 \tableofcontents
@@ -152,7 +153,6 @@ Nous noterons que la sollicitation intitulée \enquote{ObtenirConvStage} est une
 \enquote{méta-sollicitation} représentant l'ensemble des procédures et
 sollicitations établies en TP.
 
-
 \newpage \setpapersize[landscape]{A4}
 \newgeometry{left=3.5cm, top=6.2cm}
 {
@@ -160,7 +160,7 @@ sollicitations établies en TP.
     \setlength{\arrayrulewidth}{2pt}
     \begin{tabular}{|l|c|c|m{5cm}|m{9cm}|} \hline
         \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Commanditaire & \bfseries Bénéficiaire & \bfseries Ressource (classe objet) & \bfseries Finalité
-        \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \sol & \com & \ben & \res & \fin}
+        \csvreader[separator=pipe, head to column names]{./tables/modele-exigence-pack-a.csv}{}{\\ \sol & \com & \ben & \res & \fin}
         \\ \hline
     \end{tabular}
 }
@@ -174,7 +174,7 @@ sollicitations établies en TP.
     \setlength{\arrayrulewidth}{2pt}
     \begin{tabular}{|l|m{3cm}|m{3cm}|m{7cm}|m{7cm}|} \hline
         \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Destinaires (Primaires / Secondaires) & \bfseries Condition d'émission & \bfseries Condition de recevabilité & \bfseries Type d'effet
-        \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \sol & \des & \condemi & \condrec & \eff}
+        \csvreader[separator=pipe, head to column names]{./tables/modele-exigence-pack-a.csv}{}{\\ \sol & \des & \condemi & \condrec & \eff}
         \\ \hline
     \end{tabular}
 }
@@ -188,7 +188,7 @@ sollicitations établies en TP.
     \setlength{\arrayrulewidth}{2pt}
     \begin{tabular}{|l|l|c|c|} \hline
         \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Procédure & \bfseries Point d'entrée & \bfseries Rang
-        \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \sol & \proc & \ptentr & \rang}
+        \csvreader[separator=pipe, head to column names]{./tables/modele-exigence-pack-a.csv}{}{\\ \sol & \proc & \ptentr & \rang}
         \\ \hline
     \end{tabular}
 }
@@ -208,7 +208,7 @@ travail que nous avons effectué en TP.
     \setlength{\arrayrulewidth}{2pt}
     \begin{tabular}{|m{5.5cm}|c|c|m{6cm}|m{8cm}|} \hline
         \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Commanditaire & \bfseries Bénéficiaire & \bfseries Ressource (classe objet) & \bfseries Finalité
-        \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \sol & \com & \ben & \res & \fin}
+        \csvreader[separator=pipe, head to column names]{./tables/modele-exigence-pack-b.csv}{}{\\ \sol & \com & \ben & \res & \fin}
         \\ \hline
     \end{tabular}
 }
@@ -222,7 +222,7 @@ travail que nous avons effectué en TP.
     \setlength{\arrayrulewidth}{2pt}
     \begin{tabular}{|m{5.5cm}|m{3cm}|m{3cm}|m{7cm}|m{7cm}|} \hline
         \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Destinaires (Primaires / Secondaires) & \bfseries Condition d'émission & \bfseries Condition de recevabilité & \bfseries Type d'effet
-        \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \sol & \des & \condemi & \condrec & \eff}
+        \csvreader[separator=pipe, head to column names]{./tables/modele-exigence-pack-b.csv}{}{\\ \sol & \des & \condemi & \condrec & \eff}
         \\ \hline
     \end{tabular}
 }
@@ -236,13 +236,26 @@ travail que nous avons effectué en TP.
     \setlength{\arrayrulewidth}{2pt}
     \begin{tabular}{|l|l|c|c|} \hline
         \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Procédure & \bfseries Point d'entrée & \bfseries Rang
-        \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \sol & \proc & \ptentr & \rang}
+        \csvreader[separator=pipe, head to column names]{./tables/modele-exigence-pack-b.csv}{}{\\ \sol & \proc & \ptentr & \rang}
         \\ \hline
     \end{tabular}
 }
 \newpage \setpapersize{A4}
+\restoregeometry
 
 \subsection{Modèle d'activité}
+
+\subsubsection{Package A - Organisation de la campagne de stage}
+
+\newpage \setpapersize[landscape]{A4} \newgeometry{left=2.2cm, top=2.7cm}
+\includesvg{./figures/modele-activite-pack-a.svg}
+\restoregeometry \setpapersize{A4} \newpage
+
+\subsubsection{Package B - Phase d'exécution du stage}
+
+\newpage \setpapersize[landscape]{A4} \newgeometry{left=2.2cm, top=2.7cm}
+\includesvg{./figures/modele-activite-pack-b.svg}
+\restoregeometry \setpapersize{A4} \newpage
 
 \subsection{Modèle objet}
 
