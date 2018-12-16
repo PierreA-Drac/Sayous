@@ -11,7 +11,8 @@
 % Table package.
 \usepackage{csvsimple}
 \usepackage{booktabs}
-\usepackage{changepage}
+\usepackage{array}
+\usepackage[table]{xcolor}
 
 % Mathematics package.
 \usepackage{amsmath}
@@ -31,6 +32,7 @@
 \usepackage{numprint}
 
 % Formatter package.
+\usepackage{geometry}
 \usepackage{pdflscape}
 \usepackage{vmargin}
 %% Page break between section.
@@ -48,8 +50,8 @@
 \pagestyle{fancy}
 % Clear headers and footers.
 \fancyhead{}
-% \renewcommand{\headrulewidth}{0pt}
-% \renewcommand{\footrulewidth}{0pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
 % Define footers.
 \fancyfoot[RE,LO]{Pierre AYOUB, Océane FLAMANT, Dorsaf FRIGUI}
 \fancyfoot[RE,CO]{}
@@ -95,16 +97,16 @@ La modélisation de ce système s'est déroulée en plusieurs étapes :
             analyse et compréhension des besoins du client grâce à notre étape
             précédente, nous pouvons maintenant dresser un tableau d'exigences
             représentant notre système.
-        \item Modèle objet : depuis notre tableau des exigences fonctionnelles,
-            nous allons maintenant pouvoir en \enquote{dériver} une
-            représentation du système selon le modèle objet. Cette
-            représentation nous permet de voir les différentes classes de
-            notre système, ainsi que les informations qu'elles portent.
         \item Modèle d'activité : encore depuis notre tableau des exigences
             fonctionnelles, nous allons pouvoir \enquote{dériver} une
             représentation d'activité du système. Ce modèle nous permet de
             justifier les flux qui régissent la vie de ce dernier, en mettant en
             évidence les différentes interactions entre les agents du contexte.
+        \item Modèle objet : depuis notre tableau des exigences fonctionnelles,
+            nous allons maintenant pouvoir en \enquote{dériver} une
+            représentation du système selon le modèle objet. Cette
+            représentation nous permet de voir les différentes classes de
+            notre système, ainsi que les informations qu'elles portent.
 \end{itemize}
 
 \section{Modèles}
@@ -150,33 +152,48 @@ Nous noterons que la sollicitation intitulée \enquote{ObtenirConvStage} est une
 \enquote{méta-sollicitation} représentant l'ensemble des procédures et
 sollicitations établies en TP.
 
-\newpage \setpapersize[landscape]{A4}
-\begin{adjustwidth}{-2cm}{-2cm}
-    \begin{tabular}{|l|c|c|p{5cm}|p{9cm}|} \hline
-        \bfseries Sollicitation & \bfseries Commanditaire & \bfseries Bénéficiaire & \bfseries Ressource (classe objet) & \bfseries Finalité
-        \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \hline \sol & \com & \ben & \res & \fin}
-        \\ \hline
-    \end{tabular}
-\end{adjustwidth}
-\newpage \setpapersize{A4}
 
 \newpage \setpapersize[landscape]{A4}
-\begin{adjustwidth}{-2cm}{-2cm}
-    \begin{tabular}{|l|p{3cm}|p{3cm}|p{7cm}|p{7cm}|} \hline
-        \bfseries Sollicitation & \bfseries Destinaires (Primaires / Secondaires) & \bfseries Condition d'émission & \bfseries Condition de recevabilité & \bfseries Type d'effet
-        \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \hline \sol & \des & \condemi & \condrec & \eff}
+\newgeometry{left=3.5cm, top=6.2cm}
+{
+    \rowcolors{2}{gray!40}{gray!10}
+    \setlength{\arrayrulewidth}{2pt}
+    \begin{tabular}{|l|c|c|m{5cm}|m{9cm}|} \hline
+        \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Commanditaire & \bfseries Bénéficiaire & \bfseries Ressource (classe objet) & \bfseries Finalité
+        \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \sol & \com & \ben & \res & \fin}
         \\ \hline
     \end{tabular}
-\end{adjustwidth}
+}
 \newpage \setpapersize{A4}
+\restoregeometry
 
 \newpage \setpapersize[landscape]{A4}
-\begin{tabular}{|l|l|c|c|} \hline
-    \bfseries Sollicitation & \bfseries Procédure & \bfseries Point d'entrée & \bfseries Rang
-    \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \hline \sol & \proc & \ptentr & \rang}
-    \\ \hline
-\end{tabular}
+\newgeometry{left=3.5cm, top=5.8cm}
+{
+    \rowcolors{2}{gray!40}{gray!10}
+    \setlength{\arrayrulewidth}{2pt}
+    \begin{tabular}{|l|m{3cm}|m{3cm}|m{7cm}|m{7cm}|} \hline
+        \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Destinaires (Primaires / Secondaires) & \bfseries Condition d'émission & \bfseries Condition de recevabilité & \bfseries Type d'effet
+        \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \sol & \des & \condemi & \condrec & \eff}
+        \\ \hline
+    \end{tabular}
+}
 \newpage \setpapersize{A4}
+\restoregeometry
+
+\newpage \setpapersize[landscape]{A4}
+\newgeometry{left=6.4cm, top=8.7cm}
+{
+    \rowcolors{2}{gray!40}{gray!10}
+    \setlength{\arrayrulewidth}{2pt}
+    \begin{tabular}{|l|l|c|c|} \hline
+        \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Procédure & \bfseries Point d'entrée & \bfseries Rang
+        \csvreader[separator=pipe, head to column names]{./tables/pack-a.csv}{}{\\ \sol & \proc & \ptentr & \rang}
+        \\ \hline
+    \end{tabular}
+}
+\newpage \setpapersize{A4}
+\restoregeometry
 
 \subsubsection{Package B - Phase d'exécution du stage}
 
@@ -185,31 +202,44 @@ durant la période de stage en entreprise. Tout ceci se passe donc après le
 travail que nous avons effectué en TP.
 
 \newpage \setpapersize[landscape]{A4}
-\begin{adjustwidth}{-2.3cm}{-2.3cm}
-    \begin{tabular}{|p{5.5cm}|c|c|p{6cm}|p{8cm}|} \hline
-        \bfseries Sollicitation & \bfseries Commanditaire & \bfseries Bénéficiaire & \bfseries Ressource (classe objet) & \bfseries Finalité
-        \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \hline \sol & \com & \ben & \res & \fin}
+\newgeometry{left=3cm, top=4.5cm}
+{
+    \rowcolors{2}{gray!40}{gray!10}
+    \setlength{\arrayrulewidth}{2pt}
+    \begin{tabular}{|m{5.5cm}|c|c|m{6cm}|m{8cm}|} \hline
+        \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Commanditaire & \bfseries Bénéficiaire & \bfseries Ressource (classe objet) & \bfseries Finalité
+        \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \sol & \com & \ben & \res & \fin}
         \\ \hline
     \end{tabular}
-\end{adjustwidth}
+}
 \newpage \setpapersize{A4}
+\restoregeometry
 
 \newpage \setpapersize[landscape]{A4}
-\begin{adjustwidth}{-2.5cm}{-2.5cm}
-    \begin{tabular}{|p{5.5cm}|p{3cm}|p{3cm}|p{7cm}|p{7cm}|} \hline
-        \bfseries Sollicitation & \bfseries Destinaires (Primaires / Secondaires) & \bfseries Condition d'émission & \bfseries Condition de recevabilité & \bfseries Type d'effet
-        \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \hline \sol & \des & \condemi & \condrec & \eff}
+\newgeometry{left=2.8cm, top=5.7cm}
+{
+    \rowcolors{2}{gray!40}{gray!10}
+    \setlength{\arrayrulewidth}{2pt}
+    \begin{tabular}{|m{5.5cm}|m{3cm}|m{3cm}|m{7cm}|m{7cm}|} \hline
+        \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Destinaires (Primaires / Secondaires) & \bfseries Condition d'émission & \bfseries Condition de recevabilité & \bfseries Type d'effet
+        \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \sol & \des & \condemi & \condrec & \eff}
         \\ \hline
     \end{tabular}
-\end{adjustwidth}
+}
 \newpage \setpapersize{A4}
+\restoregeometry
 
 \newpage \setpapersize[landscape]{A4}
-\begin{tabular}{|l|l|c|c|} \hline
-    \bfseries Sollicitation & \bfseries Procédure & \bfseries Point d'entrée & \bfseries Rang
-    \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \hline \sol & \proc & \ptentr & \rang}
-    \\ \hline
-\end{tabular}
+\newgeometry{left=6.4cm, top=7.4cm}
+{
+    \rowcolors{2}{gray!40}{gray!10}
+    \setlength{\arrayrulewidth}{2pt}
+    \begin{tabular}{|l|l|c|c|} \hline
+        \rowcolor{gray!60} \bfseries Sollicitation & \bfseries Procédure & \bfseries Point d'entrée & \bfseries Rang
+        \csvreader[separator=pipe, head to column names]{./tables/pack-b.csv}{}{\\ \sol & \proc & \ptentr & \rang}
+        \\ \hline
+    \end{tabular}
+}
 \newpage \setpapersize{A4}
 
 \subsection{Modèle d'activité}
