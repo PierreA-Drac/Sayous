@@ -1,4 +1,4 @@
-proc|prentr|rang|sol|com|ben|res|des|condemi|condrec|eff|fin
+proc|ptentr|rang|sol|com|ben|res|des|condemi|condrec|eff|fin
 Obtention du procès verbal d'intégration|Oui|N|RappelProcesVerbalIntégration|TP|TP|Convention de stage validée|EE||Le procès verbal d'intégration n'as pas déjà été envoyé.|Notification (Demande)|TP rappel a EE qu'il faut envoyer le procès verbal d'intégration.
 /|Non|N|EnvoiProcesVerbalIntégration|EE|TP|Convention de stage validée + Éventuel RappelProcesVerbalIntégration|TP|||Notification (Réponse)|EE envoi le procès verbal d'intégration au TP.
 Obtention du rapport d'installation|Oui|N+1|EnvoieRapportInstallation|ST|TP|Convention de stage validée|TP|||Notification|ST envoi le rapport d'installation au TP.
