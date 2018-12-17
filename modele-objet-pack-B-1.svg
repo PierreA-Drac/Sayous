@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="46cm" height="37cm" viewBox="237 132 917 723" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="239" y="293" width="325.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="239" y="293" width="325.7" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="401.85" y="312">TP</text>
+    <rect style="fill: #ffffff" x="239" y="321" width="325.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="239" y="321" width="325.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="242" y="335">-id_TP</text>
+    <rect style="fill: #ffffff" x="239" y="341" width="325.7" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="239" y="341" width="325.7" height="52"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="242" y="355">+produire RappelProcesVerbalIntégration()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="242" y="371">+produire RappelMiRapport()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="242" y="387">+produire EnvoieMiRapport()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="836" y="297" width="318" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="836" y="297" width="318" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="995" y="316">Convention de stage validée</text>
+    <rect style="fill: #ffffff" x="836" y="325" width="318" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="836" y="325" width="318" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="339">-id_Conv</text>
+    <rect style="fill: #ffffff" x="836" y="345" width="318" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="836" y="345" width="318" height="84"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="359">+traiter RappelProcesVerbalIntégration()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="375">+traiter EnvoieProcesVerbalIntégration()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="391">+traier EnvoieRapportInstallation()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="407">+traiter RappelMiRapport()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="839" y="423">+traiter EnvoieMiRapport()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="338.042" y="501.464" width="318" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="338.042" y="501.464" width="318" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="497.042" y="520.464">RappelProcesVerbalIntégration</text>
+    <rect style="fill: #ffffff" x="338.042" y="529.464" width="318" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="338.042" y="529.464" width="318" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="341.042" y="543.464">-id RappelProcesVerbalIntégration</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="341.042" y="559.464">-date</text>
+    <rect style="fill: #ffffff" x="338.042" y="565.464" width="318" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="338.042" y="565.464" width="318" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="341.042" y="579.464">+RappelProcesVerbalIntégration()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="341.042" y="595.464">+traiter EnvoieProcesVerbalIntégration()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="567.454,330.158 679.178,330.158 679.178,331.572 834.742,331.572 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="681.178" y="327.865"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="571.454" y="327.158"> (B)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="571.454" y="343.158">1</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="830.742" y="328.572"> (R)</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="830.742" y="344.572">1..*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="644.144,330.452 644.144,463 571,463 571,493.295 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="566,480.647 571,496.647 576,480.647 "/>
+  </g>
+  <text style="fill: #0000ff;text-anchor:start;font-size:14.1563;font-family:sanserif;font-style:normal;font-weight:normal" x="215" y="98">
+    <tspan x="215" y="98"></tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="304" y="91">
+    <tspan x="304" y="91"></tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="341" y="92">
+    <tspan x="341" y="92"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="306" y="786" width="325.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="306" y="786" width="325.7" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="468.85" y="805">EE</text>
+    <rect style="fill: #ffffff" x="306" y="814" width="325.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="306" y="814" width="325.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="309" y="828">-id_EE</text>
+    <rect style="fill: #ffffff" x="306" y="834" width="325.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="306" y="834" width="325.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="309" y="848">+produire EnvoieProcesVerbalIntégration()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="345" y="625" width="230.95" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="345" y="625" width="230.95" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="460.475" y="644">ProcesVerbalIntégration</text>
+    <rect style="fill: #ffffff" x="345" y="653" width="230.95" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="345" y="653" width="230.95" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="348" y="667">-id ProcesVerbalIntégration</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="348" y="683">-date</text>
+    <rect style="fill: #ffffff" x="345" y="689" width="230.95" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="345" y="689" width="230.95" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="348" y="703">+ProcesVerbalIntégration()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="421,711 421,711 421,786 421,786 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="423" y="745.5"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="425" y="723">1..*</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="425" y="766"> (C)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="425" y="782">1</text>
+  </g>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="461.002" y="93">
+    <tspan x="461.002" y="93"></tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="220.002" y="82">
+    <tspan x="220.002" y="82"></tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="291.002" y="90">
+    <tspan x="291.002" y="90"></tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="780.65,333.626 781.65,333.626 781.65,561.921 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="776.65,549.273 781.65,565.273 786.65,549.273 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="728.132" y="571.342" width="187.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="728.132" y="571.342" width="187.1" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="821.682" y="590.342">RapportInstallation</text>
+    <rect style="fill: #ffffff" x="728.132" y="599.342" width="187.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="728.132" y="599.342" width="187.1" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="731.132" y="613.342">+id RapportInstallation</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="731.132" y="629.342">-date</text>
+    <rect style="fill: #ffffff" x="728.132" y="635.342" width="187.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="728.132" y="635.342" width="187.1" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="731.132" y="649.342">+RapportInstallation()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="715.132" y="722.342" width="248.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="715.132" y="722.342" width="248.7" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="839.482" y="741.342">ST</text>
+    <rect style="fill: #ffffff" x="715.132" y="750.342" width="248.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="715.132" y="750.342" width="248.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="718.132" y="764.342">-id_ST</text>
+    <rect style="fill: #ffffff" x="715.132" y="770.342" width="248.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="715.132" y="770.342" width="248.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="718.132" y="784.342">+produire RapportInstallation()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="764,657 764,688.812 763.65,688.812 763.65,720.626 "/>
+    <text style="fill: #000000;text-anchor:middle;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="763.825" y="685.812"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="768" y="669">1</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="767.65" y="700.626"> (C)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="767.65" y="716.626">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="377,398 377,445 377,445 377,503 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="379" y="442"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="381" y="410"> (C)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="381" y="426">1</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="381" y="499">0..*</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="606" y="170" width="210.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="606" y="170" width="210.2" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="711.1" y="189">RappelMiRapport</text>
+    <rect style="fill: #ffffff" x="606" y="198" width="210.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="606" y="198" width="210.2" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="609" y="212">+id RappelMiRapport</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="609" y="228">-date</text>
+    <rect style="fill: #ffffff" x="606" y="234" width="210.2" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="606" y="234" width="210.2" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="609" y="248">+RappelMiRapport()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="609" y="264">+traiter EnvoieMiRapport()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="392,290 392,212 602,212 602,212 "/>
+    <text style="fill: #000000;text-anchor:middle;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="497" y="209"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="396" y="270"> (C)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="396" y="286">1</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="598" y="209">0..*</text>
+  </g>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="580" y="93">
+    <tspan x="580" y="93"></tspan>
+  </text>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="572" y="101">
+    <tspan x="572" y="101"></tspan>
+  </text>
+  <g>
+    <rect style="fill: #ffffff" x="921" y="206" width="110.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="921" y="206" width="110.1" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="976.05" y="225">MiRapport</text>
+    <rect style="fill: #ffffff" x="921" y="234" width="110.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="921" y="234" width="110.1" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="924" y="248">-id_MiRapport</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="924" y="264">-date</text>
+    <rect style="fill: #ffffff" x="921" y="270" width="110.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="921" y="270" width="110.1" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="924" y="284">+MiRapport()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="339,289 339,147 976,147 976,201 "/>
+    <text style="fill: #000000;text-anchor:middle;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="657.5" y="144"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="343" y="269"> (C)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="343" y="285">1</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="980" y="197">1..*</text>
+  </g>
+  <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:sanserif;font-style:normal;font-weight:normal" x="841" y="94">
+    <tspan x="841" y="94"></tspan>
+  </text>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="697,333 697,333 697,276.705 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="702,289.353 697,273.353 692,289.353 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="566.748,373.292 624.198,373.292 624.198,398.626 681.65,398.626 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="626.198" y="382.959"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="570.748" y="370.292"> (B)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="570.748" y="386.292">1</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="677.65" y="395.626"></text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="679.65,398.626 764.842,398.626 764.842,398.626 830.65,398.626 "/>
+    <text style="fill: #000000;text-anchor:middle;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="764.842" y="395.626"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="683.65" y="395.626"></text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="826.65" y="395.626"> (R)</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="826.65" y="411.626">1..*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="696.65,399.626 696.65,547.5 653.65,547.5 653.65,545.626 "/>
+    <text style="fill: #000000;text-anchor:middle;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="675.15" y="544.5"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="700.65" y="411.626"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="657.65" y="557.626"> (R)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="657.65" y="573.626">0..*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="697.65,545.626 698.65,545.626 698.65,674.626 584.355,674.626 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="597.003,669.626 581.003,674.626 597.003,679.626 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="741.65,397.626 741.65,397.626 741.65,270.626 741.65,270.626 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="743.65" y="331.126"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="745.65" y="393.626"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="745.65" y="282.626"> (R)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="745.65" y="298.626">0..*</text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="674.65,399.626 694.65,379.626 714.65,399.626 694.65,419.626 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="674.65,399.626 694.65,379.626 714.65,399.626 694.65,419.626 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="722.65,399.626 742.65,379.626 762.65,399.626 742.65,419.626 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="722.65,399.626 742.65,379.626 762.65,399.626 742.65,419.626 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="816.2,224 866.925,224 866.925,222.626 910.945,222.626 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="898.297,227.626 914.297,222.626 898.297,217.626 "/>
+  </g>
+</svg>
