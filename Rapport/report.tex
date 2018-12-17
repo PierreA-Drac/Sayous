@@ -245,13 +245,22 @@ travail que nous avons effectué en TP.
 
 \subsection{Modèle d'activité}
 
-TODO
+Nous allons maintenant vous présenter le modèle d'activité de notre système,
+toujours séparé en deux packages, avec chaque package séparé en plusieurs
+parties. Ce modèle nous permet de mettre en évidence les interactions des
+différents agents du système, ainsi que les relations entre ces derniers grâce
+au passage de ressources.
 
 \subsubsection{Package A - Organisation de la campagne de stage}
 
-Le package A est organisé en deux parties, pour des raisons de visiblité.
-
-TODO
+Le package A est organisé en deux parties, pour des raisons de visiblité. La
+première partie décris les nombreuses étapes de la procédure de création de la
+commission de stage : la demande aux anciens membres, la demande aux
+enseignants, enfin la formation de la commission. La deuxième partie modélise le
+reste de l'établissement de la campagne de stage : la fixation du nombre
+d'élèves maximum par enseignant, le lancement officiel de la campagne, ainsi que
+la clôture de la campagne avec l'affectation des enseignants aux élèves en tant
+que tuteur pédagogique.
 
 \newpage \setpapersize[landscape]{A4} \newgeometry{left=2.2cm, top=2.7cm}
 \includesvg{./figures/modele-activite-pack-a-1.svg}
@@ -263,15 +272,36 @@ TODO
 
 \subsubsection{Package B - Phase d'exécution du stage}
 
-TODO
+Le package B est, lui, composé en 3 parties. La première partie décris les
+sollicitations concernant les différents rapports destinés à circuler : le
+procès verbal d'intégration, le rapport d'installation, le rapport de mi-stage,
+finalement le rapport final. Chacun de ces rapports, hormis le rapport
+d'installation, peut faire l'objet d'un rappel. La deuxième partie représente
+les traitements affectants la visite : l'exécution de la visite, l'envoie du
+rapport de la visite, ainsi que la demande d'annulation de la visite. La
+troisième partie correspond à la demande d'interruption du stage avec toutes les
+procédures qui en découle.
 
 \newpage \setpapersize[landscape]{A4} \newgeometry{left=3cm, top=2.8cm}
 \includesvg{./figures/modele-activite-pack-b-1.svg}
 \restoregeometry \setpapersize{A4} \newpage
 
+\newpage \setpapersize[landscape]{A4} \newgeometry{left=4.5cm, top=4.5cm}
+\includesvg{./figures/modele-activite-pack-b-2.svg}
+\restoregeometry \setpapersize{A4} \newpage
+
+\newpage \setpapersize[landscape]{A4} \newgeometry{left=2.3cm, top=2.8cm}
+\includesvg{./figures/modele-activite-pack-b-3.svg}
+\restoregeometry \setpapersize{A4} \newpage
+
 \subsection{Modèle objet}
 
-TODO
+En dernier lieu, nous pouvons dès à présent analyser le modèle objet du système,
+séparé en deux packages et plusieurs parties de la même manière que les deux
+modèles précédents. Ce modèle décris le système sous un regard orienté-objet
+et utilise le formalisme d'UML pour mettre en place un diagramme de classe. Nous
+pouvons donc observer chaque agent et ressource se matérialiser sous la forme de
+classe, possédant différentes méthodes afin de répondre aux sollicitations.
 
 \subsubsection{Package A - Organisation de la campagne de stage}
 
@@ -283,10 +313,29 @@ TODO
 
 \section{Limites}
 
-TODO
+Au cours de la modélisation, nous nous sommes confrontés à certains types de
+problèmes :
+\begin{enumerate}
+    \item Mise en évidence du parallélisme : ces représentations nous permettent
+        de décrire un système avec des évènements se déroulant en parallèle (ce
+        que nous avons fait), cependant nous estimons que le parallélisme
+        n'apparait pas assez clairement dans nos modèles.
+    \item La survenance d'une sollicitation qui peut en egendrer une autre : par
+        exemple, lors du rappel d'envoyer un rapport, le rappel peut ou non se
+        produire, mais l'envoie doit toujours être fait. La modélisation de ce
+        type de sollicitation nous à posé quelques problèmes concernant les
+        rangs et les points d'entrées.
+\end{enumerate}
 
 \section{Conclusion}
 
-TODO
+Ce projet nous aura permis de nous confronter à une modélisation de plus grande
+ampleur que ce que nous avions fait en travaux dirigés. Concevoir un système de
+A à Z avec \enquote{autant} d'agents et de sollicitations se révèle beaucoup
+plus fastidieux et compliqué que la petite portion que nous avons fait en
+travaux dirigés. Cependant, cela nous aura été bénéfique et nous à conforté dans
+notre utilisation de la méthode CLHYPS, bien qu'il faille garder en mémoire le
+fait qu'il nous reste sans doute beacoup de choses à apprendre concernant ce
+cadre méthodologique.
 
 \end{document}
