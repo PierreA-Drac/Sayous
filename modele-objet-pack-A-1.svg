@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="57cm" height="54cm" viewBox="144 22 1122 1066" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="219.5" y="63" width="56.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="219.5" y="63" width="56.2" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="247.6" y="82">CS</text>
+    <rect style="fill: #ffffff" x="219.5" y="91" width="56.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="219.5" y="91" width="56.2" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="222.5" y="105">-id CS</text>
+    <rect style="fill: #ffffff" x="219.5" y="111" width="56.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="219.5" y="111" width="56.2" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="561.5" y="59" width="202.15" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="561.5" y="59" width="202.15" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="662.575" y="78">ListeAMAnnéePassée</text>
+    <rect style="fill: #ffffff" x="561.5" y="87" width="202.15" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="561.5" y="87" width="202.15" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="564.5" y="101">-id ListeAMAnnéePassée</text>
+    <rect style="fill: #ffffff" x="561.5" y="107" width="202.15" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="561.5" y="107" width="202.15" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="564.5" y="121">+traiter DemandeAM()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="375.5" y="212" width="164" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="375.5" y="212" width="164" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="457.5" y="231">DemandeAM</text>
+    <rect style="fill: #ffffff" x="375.5" y="240" width="164" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="375.5" y="240" width="164" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="378.5" y="254">-id DemandeAM</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="378.5" y="270">-date</text>
+    <rect style="fill: #ffffff" x="375.5" y="276" width="164" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="375.5" y="276" width="164" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="378.5" y="290">+traiter ReponseAM()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="378.5" y="306">+DemandeAM()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="970.071" y="162.917" width="187.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="970.071" y="162.917" width="187.1" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="1063.62" y="181.917">RDS</text>
+    <rect style="fill: #ffffff" x="970.071" y="190.917" width="187.1" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="970.071" y="190.917" width="187.1" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="973.071" y="204.917">-id RDS</text>
+    <rect style="fill: #ffffff" x="970.071" y="210.917" width="187.1" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="970.071" y="210.917" width="187.1" height="68"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="973.071" y="224.917">+produire DemandeAM()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="973.071" y="240.917">+produire DemandeENS()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="973.071" y="256.917">+produire selectionCS()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="973.071" y="272.917">+produire ClotureCS()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="275.7,77 418.6,77 418.6,97 561.5,97 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="279.7" y="74"> (B)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="279.7" y="90">0..1</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="557.5" y="94"> (R)</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="557.5" y="110">0..1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="505,96 505,141 506,141 506,205.295 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="501,192.647 506,208.647 511,192.647 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="539.5,226 754.785,226 754.785,220.917 970.071,220.917 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="543.5" y="223">0..*</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="966.071" y="217.917"> (C)</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="966.071" y="233.917">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="275.7,119 275.7,194.828 437.694,194.828 437.694,208.747 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="279.7" y="131"> (B)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="279.7" y="147">1</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="441.694" y="188.747"> (R)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="441.694" y="204.747">1</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="377" y="411" width="115.65" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="377" y="411" width="115.65" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="434.825" y="430">ReponseAM</text>
+    <rect style="fill: #ffffff" x="377" y="439" width="115.65" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="377" y="439" width="115.65" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="380" y="453">-date</text>
+    <rect style="fill: #ffffff" x="377" y="459" width="115.65" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="377" y="459" width="115.65" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="315.588,195.243 316.588,195.243 316.588,449 370.295,449 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="357.647,454 373.647,449 357.647,444 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="642" y="345" width="171.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="642" y="345" width="171.7" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="727.85" y="364">AcceptationAM</text>
+    <rect style="fill: #ffffff" x="642" y="373" width="171.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="642" y="373" width="171.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="645" y="387">-id AcceptationAM</text>
+    <rect style="fill: #ffffff" x="642" y="393" width="171.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="642" y="393" width="171.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="645" y="407">+traiter DemandeENS()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="633" y="439" width="89.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="633" y="439" width="89.3" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="677.65" y="458">RefusAM</text>
+    <rect style="fill: #ffffff" x="633" y="467" width="89.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="633" y="467" width="89.3" height="8"/>
+    <rect style="fill: #ffffff" x="633" y="475" width="89.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="633" y="475" width="89.3" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="492.65,392.764 492.65,369 642,369 642,359 "/>
+    <polygon style="fill: #ffffff" points="484.65,392.764 492.65,408.764 500.65,392.764 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="484.65,392.764 492.65,408.764 500.65,392.764 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="492.65,485.236 492.65,525 677.65,525 677.65,483 "/>
+    <polygon style="fill: #ffffff" points="500.65,485.236 492.65,469.236 484.65,485.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="500.65,485.236 492.65,469.236 484.65,485.236 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="305.002" y="577" width="171.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="305.002" y="577" width="171.7" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="390.852" y="596">AM</text>
+    <rect style="fill: #ffffff" x="305.002" y="605" width="171.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="305.002" y="605" width="171.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="308.002" y="619">-id AM</text>
+    <rect style="fill: #ffffff" x="305.002" y="625" width="171.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="305.002" y="625" width="171.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="308.002" y="639">+produire ReponseAM()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="416.694,575.747 416.694,524.5 415,524.5 415,469 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="420.694" y="555.747"> (C)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="420.694" y="571.747">1</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="419" y="481">1</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="961.947" y="345.757" width="171.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="961.947" y="345.757" width="171.7" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="1047.8" y="364.757">ListeENS</text>
+    <rect style="fill: #ffffff" x="961.947" y="373.757" width="171.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="961.947" y="373.757" width="171.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="964.947" y="387.757">-id ListeENS</text>
+    <rect style="fill: #ffffff" x="961.947" y="393.757" width="171.7" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="961.947" y="393.757" width="171.7" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="964.947" y="407.757">+traiter DemandeENS()</text>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="897.063,442.586 917.063,422.586 937.063,442.586 917.063,462.586 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="897.063,442.586 917.063,422.586 937.063,442.586 917.063,462.586 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="814.705,379 855.884,379 855.884,442.586 897.063,442.586 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="818.705" y="376"> (R)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="818.705" y="392">0..*</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1047.8,413.757 1047.8,441.757 937.063,441.757 937.063,442.586 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="1051.8" y="425.757"> (R)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="1051.8" y="441.757">1..*</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="941.063" y="438.586"></text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="839.708" y="538" width="171.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="839.708" y="538" width="171.7" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="925.558" y="557">DemandeENS</text>
+    <rect style="fill: #ffffff" x="839.708" y="566" width="171.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="839.708" y="566" width="171.7" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="842.708" y="580">-id DemandeENS</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="842.708" y="596">-date</text>
+    <rect style="fill: #ffffff" x="839.708" y="602" width="171.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="839.708" y="602" width="171.7" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="842.708" y="616">+traiter ReponseENS()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="842.708" y="632">+DemandeENS()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="916.694,467.747 916.694,501.247 918.694,501.247 918.694,528.042 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="913.694,515.395 918.694,531.395 923.694,515.395 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="219.5,119 219.5,668 904.694,668 904.694,639.747 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="223.5" y="131"> (B)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="223.5" y="147">1</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="908.694" y="651.747"> (R)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="908.694" y="667.747">0..*</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="653.267" y="749.233" width="123.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="653.267" y="749.233" width="123.2" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="714.867" y="768.233">ReponseENS</text>
+    <rect style="fill: #ffffff" x="653.267" y="777.233" width="123.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="653.267" y="777.233" width="123.2" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="656.267" y="791.233">-date</text>
+    <rect style="fill: #ffffff" x="653.267" y="797.233" width="123.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="653.267" y="797.233" width="123.2" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="656.267" y="811.233">+ReponseENS()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="715.493,671.451 715.493,710.342 714.867,710.342 714.867,742.527 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="709.867,729.88 714.867,745.88 719.867,729.88 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="422.751" y="752.061" width="179.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="422.751" y="752.061" width="179.4" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="512.451" y="771.061">AcceptationENS</text>
+    <rect style="fill: #ffffff" x="422.751" y="780.061" width="179.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="422.751" y="780.061" width="179.4" height="8"/>
+    <rect style="fill: #ffffff" x="422.751" y="788.061" width="179.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="422.751" y="788.061" width="179.4" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="425.751" y="802.061">+traiter SelectionCS()</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="861.157" y="720.948" width="96.85" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="861.157" y="720.948" width="96.85" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="909.582" y="739.948">RefusENS</text>
+    <rect style="fill: #ffffff" x="861.157" y="748.948" width="96.85" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="861.157" y="748.948" width="96.85" height="8"/>
+    <rect style="fill: #ffffff" x="861.157" y="756.948" width="96.85" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="861.157" y="756.948" width="96.85" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="635.031,763.233 628.481,763.233 628.481,762.747 603.694,762.747 "/>
+    <polygon style="fill: #ffffff" points="635.031,771.233 651.031,763.233 635.031,755.233 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="635.031,771.233 651.031,763.233 635.031,755.233 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="776.467,730.996 776.467,702.563 909.582,702.563 909.582,720.948 "/>
+    <polygon style="fill: #ffffff" points="768.467,730.996 776.467,746.996 784.467,730.996 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="768.467,730.996 776.467,746.996 784.467,730.996 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1011.41,576 1205.69,576 1205.69,252.917 1157.17,252.917 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="1015.41" y="573">1..*</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="1161.17" y="249.917"> (C)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="1161.17" y="265.917">1</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="797.145" y="863.784" width="179.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="797.145" y="863.784" width="179.4" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="886.845" y="882.784">ENS</text>
+    <rect style="fill: #ffffff" x="797.145" y="891.784" width="179.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="797.145" y="891.784" width="179.4" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="800.145" y="905.784">-id ENS</text>
+    <rect style="fill: #ffffff" x="797.145" y="911.784" width="179.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="797.145" y="911.784" width="179.4" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="800.145" y="925.784">+produire ReponseENS()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="422.751,766.061 189.033,766.061 189.033,101 219.5,101 "/>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="418.751" y="763.061"> (R)</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="418.751" y="779.061">0..*</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="215.5" y="98"> (B)</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="215.5" y="114">1</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="309.241" y="914.696" width="156.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="309.241" y="914.696" width="156.3" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="387.391" y="933.696">SelectionCS</text>
+    <rect style="fill: #ffffff" x="309.241" y="942.696" width="156.3" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="309.241" y="942.696" width="156.3" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="312.241" y="956.696">-date</text>
+    <rect style="fill: #ffffff" x="309.241" y="962.696" width="156.3" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="309.241" y="962.696" width="156.3" height="36"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="312.241" y="976.696">+traiterClotureCS()</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="312.241" y="992.696">+SelectionCS()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="353.082,771.86 353.082,841.156 351.668,841.156 351.668,903.748 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="346.668,891.1 351.668,907.1 356.668,891.1 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="465.541,952.696 1230.04,952.696 1230.04,200.917 1157.17,200.917 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="469.541" y="949.696">1..*</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="1161.17" y="197.917"> (C)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="1161.17" y="213.917">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="309.241,952.696 145.192,952.696 145.192,63 219.5,63 "/>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="305.241" y="949.696"> (R)</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="305.241" y="965.696">1</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="215.5" y="60"> (B)</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="215.5" y="76">1</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="669.158" y="1019.35" width="102.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="669.158" y="1019.35" width="102.4" height="28"/>
+    <text style="fill: #000000;text-anchor:middle;font-size:16;font-family:sanserif;font-style:normal;font-weight:700" x="720.358" y="1038.35">ClotureCS</text>
+    <rect style="fill: #ffffff" x="669.158" y="1047.35" width="102.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="669.158" y="1047.35" width="102.4" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="672.158" y="1061.35">-date</text>
+    <rect style="fill: #ffffff" x="669.158" y="1067.35" width="102.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="669.158" y="1067.35" width="102.4" height="20"/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.8;font-family:monospace;font-style:normal;font-weight:normal" x="672.158" y="1081.35">+ClotureCS()</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="779.694,1046.75 1263.69,1046.75 1263.69,162.917 1157.17,162.917 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="783.694" y="1043.75">1..*</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="1161.17" y="159.917"> (C)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="1161.17" y="175.917">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="917.063,422.586 917.063,23.7473 247.6,23.7473 247.6,63 "/>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="921.063" y="418.586"></text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="251.6" y="43"> (B)</text>
+    <text style="fill: #000000;text-anchor:start;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="251.6" y="59">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="792.694,889.747 730.192,889.747 730.192,832.747 730.694,832.747 "/>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="788.694" y="886.747"> (C)</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="788.694" y="902.747">1</text>
+    <text style="fill: #000000;text-anchor:end;font-size:12.7998;font-family:monospace;font-style:normal;font-weight:normal" x="726.694" y="829.747">1</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="251.471,959.301 249.694,959.301 249.694,1057.35 662.453,1057.35 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="649.806,1062.35 665.806,1057.35 649.806,1052.35 "/>
+  </g>
+</svg>
